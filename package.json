@@ -1,0 +1,13 @@
+{
+  "name": "smart-badge-docs",
+  "version": "1.0.0",
+  "description": "Documentation for SmartBadge - Semantic Intelligence for GitHub Repositories",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^1.0.0",
+    "@types/fs-extra": "^11.0.0",
+    "fs-extra": "^11.0.0"
+  }
+}
