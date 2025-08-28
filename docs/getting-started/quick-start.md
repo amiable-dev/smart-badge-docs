@@ -1,4 +1,4 @@
-# 30-Second Quickstart
+# Quick Start
 
 Get your first SmartBadge in 30 seconds or less! 🚀
 

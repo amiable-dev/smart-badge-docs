@@ -18,7 +18,7 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Getting Started',
       items: [
-        'getting-started/quickstart',
+        'getting-started/quick-start',
         'getting-started/installation',
         'getting-started/first-badge',
       ],

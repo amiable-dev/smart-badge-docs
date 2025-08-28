@@ -1,6 +1,6 @@
 {
   "id": "intro",
-  "title": "Welcome to SmartBadge",
+  "title": "Welcome to SmartBadge Documentation",
   "description": "SmartBadge is the next generation of GitHub repository badges, powered by semantic intelligence. Unlike traditional badges that only show basic statistics, SmartBadge understands what your code actually does and provides meaningful insights through AI-powered semantic analysis.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
@@ -14,7 +14,7 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "30-Second Quickstart",
-    "permalink": "/docs/getting-started/quickstart"
+    "title": "Quick Start",
+    "permalink": "/docs/getting-started/quick-start"
   }
 }

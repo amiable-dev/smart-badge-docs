@@ -1,4 +1,4 @@
-# Welcome to SmartBadge
+# Welcome to SmartBadge Documentation
 
 **SmartBadge** is the next generation of GitHub repository badges, powered by semantic intelligence. Unlike traditional badges that only show basic statistics, SmartBadge understands what your code *actually does* and provides meaningful insights through AI-powered semantic analysis.
 

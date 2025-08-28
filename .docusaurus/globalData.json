@@ -36,8 +36,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "getting-started/quickstart",
-              "path": "/docs/getting-started/quickstart",
+              "id": "getting-started/quick-start",
+              "path": "/docs/getting-started/quick-start",
               "sidebar": "tutorialSidebar"
             },
             {

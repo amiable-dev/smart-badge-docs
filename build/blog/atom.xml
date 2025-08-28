@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://docs.smartbadge.io/blog</id>
+    <title>SmartBadge Documentation Blog</title>
+    <updated>2024-01-15T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://docs.smartbadge.io/blog"/>
+    <subtitle>SmartBadge Documentation Blog</subtitle>
+    <icon>https://docs.smartbadge.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome to SmartBadge]]></title>
+        <id>https://docs.smartbadge.io/blog/welcome</id>
+        <link href="https://docs.smartbadge.io/blog/welcome"/>
+        <updated>2024-01-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We're excited to announce SmartBadge - the next generation of GitHub repository badges powered by semantic intelligence!]]></summary>
+        <content type="html"><![CDATA[<p>We're excited to announce SmartBadge - the next generation of GitHub repository badges powered by semantic intelligence!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-smartbadge">What is SmartBadge?<a href="https://docs.smartbadge.io/blog/welcome#what-is-smartbadge" class="hash-link" aria-label="Direct link to What is SmartBadge?" title="Direct link to What is SmartBadge?">​</a></h2>
+<p>SmartBadge goes beyond traditional repository statistics to provide meaningful insights about what your code actually does. Using AI-powered semantic analysis, we understand the purpose, architecture, and quality of your codebase.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="get-started-today">Get Started Today<a href="https://docs.smartbadge.io/blog/welcome#get-started-today" class="hash-link" aria-label="Direct link to Get Started Today" title="Direct link to Get Started Today">​</a></h2>
+<p>Visit <a href="https://smartbadge.io/" target="_blank" rel="noopener noreferrer">smartbadge.io</a> to generate your first intelligent badge in 30 seconds!</p>]]></content>
+        <author>
+            <name>SmartBadge Team</name>
+            <uri>https://github.com/amiable-dev</uri>
+        </author>
+        <category label="welcome" term="welcome"/>
+        <category label="announcement" term="announcement"/>
+    </entry>
+</feed>

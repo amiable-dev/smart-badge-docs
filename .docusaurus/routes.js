@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '13a'),
+    component: ComponentCreator('/docs', '8fd'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '22c'),
+        component: ComponentCreator('/docs', 'e82'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '063'),
+            component: ComponentCreator('/docs', 'f9b'),
             routes: [
               {
                 path: '/docs/api/authentication',
@@ -85,8 +85,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/getting-started/quickstart',
-                component: ComponentCreator('/docs/getting-started/quickstart', '1cd'),
+                path: '/docs/getting-started/quick-start',
+                component: ComponentCreator('/docs/getting-started/quick-start', '09c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

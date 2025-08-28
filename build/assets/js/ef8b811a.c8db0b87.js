@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksmart_badge_docs=self.webpackChunksmart_badge_docs||[]).push([[947],{6600:a=>{a.exports=JSON.parse('{"authors":[{"name":"SmartBadge Team","title":"Maintainer of SmartBadge","url":"https://github.com/amiable-dev","imageURL":"https://github.com/amiable-dev.png","key":"smartbadge","page":null,"count":1}]}')}}]);

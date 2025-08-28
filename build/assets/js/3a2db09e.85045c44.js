@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksmart_badge_docs=self.webpackChunksmart_badge_docs||[]).push([[121],{8070:e=>{e.exports=JSON.parse('{"tags":[{"label":"welcome","permalink":"/blog/tags/welcome","count":1},{"label":"announcement","permalink":"/blog/tags/announcement","count":1}]}')}}]);

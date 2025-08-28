@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksmart_badge_docs=self.webpackChunksmart_badge_docs||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome to SmartBadge","permalink":"/blog/welcome","unlisted":false,"date":"2024-01-15T00:00:00.000Z"}]}')}}]);

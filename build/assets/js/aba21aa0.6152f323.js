@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksmart_badge_docs=self.webpackChunksmart_badge_docs||[]).push([[742],{7093:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
