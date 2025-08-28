@@ -1,0 +1,24 @@
+{
+  "id": "getting-started/installation",
+  "title": "Installation Guide",
+  "description": "Complete setup instructions for SmartBadge integration.",
+  "source": "@site/docs/getting-started/installation.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/installation",
+  "permalink": "/docs/getting-started/installation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/amiable-dev/smart-badge-docs/tree/main/docs/getting-started/installation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "30-Second Quickstart",
+    "permalink": "/docs/getting-started/quickstart"
+  },
+  "next": {
+    "title": "Your First Badge",
+    "permalink": "/docs/getting-started/first-badge"
+  }
+}

@@ -1,0 +1,95 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-font-family-base: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --ifm-color-primary: hsl(221.2, 83.2%, 53.3%);
+  --ifm-color-primary-dark: #1d4ed8;
+  --ifm-color-primary-darker: #1e40af;
+  --ifm-color-primary-darkest: #1e3a8a;
+  --ifm-color-primary-light: #3b82f6;
+  --ifm-color-primary-lighter: #60a5fa;
+  --ifm-color-primary-lightest: #93c5fd;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+  /* SmartBadge semantic colors */
+  --semantic-language: hsl(142, 71%, 45%);
+  --semantic-framework: hsl(262, 83%, 58%);
+  --semantic-classification: hsl(213, 94%, 68%);
+  --semantic-complexity: hsl(39, 100%, 50%);
+  --semantic-maturity: hsl(120, 100%, 25%);
+  
+  /* SmartBadge specific colors */
+  --smartbadge-success: #10b981;
+  --smartbadge-warning: #f59e0b;
+  --smartbadge-error: #ef4444;
+  --smartbadge-secondary: #6b7280;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #60a5fa;
+  --ifm-color-primary-dark: #3b82f6;
+  --ifm-color-primary-darker: #2563eb;
+  --ifm-color-primary-darkest: #1d4ed8;
+  --ifm-color-primary-light: #93c5fd;
+  --ifm-color-primary-lighter: #bfdbfe;
+  --ifm-color-primary-lightest: #dbeafe;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Custom SmartBadge styling */
+.badge-preview {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.25rem;
+  border: 1px solid var(--ifm-border-color);
+  border-radius: 4px;
+  background: var(--ifm-background-surface-color);
+}
+
+.api-playground {
+  border: 1px solid var(--ifm-border-color);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: var(--ifm-background-surface-color);
+}
+
+.interactive-example {
+  background: var(--ifm-code-background);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+/* Code highlighting improvements */
+code {
+  font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'SF Mono', Monaco, 'Inconsolata', 'Roboto Mono', 'Source Code Pro', monospace;
+}
+
+/* Button styling for interactive components */
+.smartbadge-button {
+  background: var(--ifm-color-primary);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.smartbadge-button:hover {
+  background: var(--ifm-color-primary-dark);
+}
+
+.smartbadge-button:disabled {
+  background: var(--ifm-color-secondary);
+  cursor: not-allowed;
+}

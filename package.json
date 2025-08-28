@@ -3,11 +3,31 @@
   "version": "1.0.0",
   "description": "Documentation for SmartBadge - Semantic Intelligence for GitHub Repositories",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids"
   },
   "devDependencies": {
-    "vitest": "^1.0.0",
     "@types/fs-extra": "^11.0.0",
-    "fs-extra": "^11.0.0"
+    "fs-extra": "^11.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0",
+    "@docusaurus/tsconfig": "^3.8.1"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^3.8.1",
+    "@docusaurus/module-type-aliases": "^3.8.1",
+    "@docusaurus/preset-classic": "^3.8.1",
+    "@docusaurus/types": "^3.8.1",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.8",
+    "react": "^19.1.1"
   }
 }

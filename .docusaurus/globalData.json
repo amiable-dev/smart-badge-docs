@@ -1,0 +1,88 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "api/authentication",
+              "path": "/docs/api/authentication",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/endpoints",
+              "path": "/docs/api/endpoints",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/overview",
+              "path": "/docs/api/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/first-badge",
+              "path": "/docs/getting-started/first-badge",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/installation",
+              "path": "/docs/getting-started/installation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/quickstart",
+              "path": "/docs/getting-started/quickstart",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/badge-customization",
+              "path": "/docs/guides/badge-customization",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/integrations",
+              "path": "/docs/guides/integrations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/semantic-analysis",
+              "path": "/docs/guides/semantic-analysis",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "interactive/api-playground",
+              "path": "/docs/interactive/api-playground",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "interactive/badge-generator",
+              "path": "/docs/interactive/badge-generator",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

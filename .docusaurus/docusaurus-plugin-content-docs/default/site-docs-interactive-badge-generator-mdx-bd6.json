@@ -1,0 +1,27 @@
+{
+  "id": "interactive/badge-generator",
+  "title": "Interactive Badge Generator",
+  "description": "Generate custom SmartBadge badges with live preview",
+  "source": "@site/docs/interactive/badge-generator.mdx",
+  "sourceDirName": "interactive",
+  "slug": "/interactive/badge-generator",
+  "permalink": "/docs/interactive/badge-generator",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/amiable-dev/smart-badge-docs/tree/main/docs/interactive/badge-generator.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Interactive Badge Generator",
+    "description": "Generate custom SmartBadge badges with live preview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Authentication",
+    "permalink": "/docs/api/authentication"
+  },
+  "next": {
+    "title": "API Playground",
+    "permalink": "/docs/interactive/api-playground"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "guides/integrations",
+  "title": "Integrations",
+  "description": "Connect SmartBadge with your favorite development tools and workflows.",
+  "source": "@site/docs/guides/integrations.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/integrations",
+  "permalink": "/docs/guides/integrations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/amiable-dev/smart-badge-docs/tree/main/docs/guides/integrations.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Understanding Semantic Analysis",
+    "permalink": "/docs/guides/semantic-analysis"
+  },
+  "next": {
+    "title": "API Overview",
+    "permalink": "/docs/api/overview"
+  }
+}

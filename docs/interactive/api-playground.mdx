@@ -1,0 +1,177 @@
+---
+title: API Playground
+description: Interactive API testing environment for SmartBadge endpoints
+---
+
+import ApiPlayground from '@site/src/components/ApiPlayground';
+
+# API Playground
+
+Interactive API testing environment for SmartBadge endpoints.
+
+## Test API Endpoints
+
+Try SmartBadge API endpoints directly in your browser with real-time results.
+
+### Quick Test - No Auth Required
+
+Test badge generation without authentication:
+
+```bash
+# Try this endpoint:
+GET https://smartbadge.io/badge/facebook/react/semantic.svg
+```
+
+### Interactive Testing
+
+<ApiPlayground />
+
+## Common API Patterns
+
+### Batch Analysis
+
+Test batch processing multiple repositories:
+
+```bash
+curl -X POST https://api.smartbadge.io/v1/batch/analyze \
+  -H "Authorization: Bearer your-api-key" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "repositories": [
+      "facebook/react",
+      "vuejs/vue", 
+      "angular/angular"
+    ],
+    "types": ["semantic", "language"]
+  }'
+```
+
+### Webhook Testing
+
+Test webhook setup with RequestBin or ngrok:
+
+```bash
+# Create a test webhook
+curl -X POST https://api.smartbadge.io/v1/webhooks \
+  -H "Authorization: Bearer your-api-key" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "url": "https://your-test-endpoint.com/webhook",
+    "events": ["analysis.completed"]
+  }'
+```
+
+### Search Repositories
+
+Find repositories by semantic classification:
+
+```bash
+curl "https://api.smartbadge.io/v1/search/repositories?classification=Web%20Application&technology=React"
+```
+
+## Error Testing
+
+Test common error scenarios:
+
+### 401 Unauthorized
+```bash
+curl https://api.smartbadge.io/v1/analyze/facebook/react
+# Should return: {"error": {"code": "MISSING_API_KEY", ...}}
+```
+
+### 404 Not Found  
+```bash
+curl -H "Authorization: Bearer your-key" \
+     https://api.smartbadge.io/v1/analyze/nonexistent/repo
+# Should return: {"error": {"code": "REPOSITORY_NOT_FOUND", ...}}
+```
+
+### 429 Rate Limited
+```bash
+# Make many rapid requests to trigger rate limiting
+for i in {1..100}; do
+  curl -H "Authorization: Bearer your-key" \
+       https://api.smartbadge.io/v1/analyze/facebook/react
+done
+```
+
+## SDK Testing
+
+Test with different programming languages:
+
+### JavaScript/Node.js
+
+```javascript
+// Test the JavaScript SDK
+import { SmartBadge } from '@smartbadge/client';
+
+const client = new SmartBadge({ apiKey: 'your-api-key' });
+
+try {
+  const analysis = await client.analyze('facebook/react');
+  console.log('Classification:', analysis.classification);
+  console.log('Confidence:', analysis.confidence);
+  console.log('Technologies:', analysis.technologies);
+} catch (error) {
+  console.error('Error:', error.message);
+}
+```
+
+### Python
+
+```python
+# Test the Python SDK
+from smartbadge import SmartBadge
+
+client = SmartBadge(api_key='your-api-key')
+
+try:
+    analysis = client.analyze('facebook/react')
+    print(f"Classification: {analysis.classification}")
+    print(f"Confidence: {analysis.confidence}")
+    print(f"Technologies: {analysis.technologies}")
+except Exception as error:
+    print(f"Error: {error}")
+```
+
+### cURL Collection
+
+Download our Postman/Insomnia collection for comprehensive testing:
+
+- **[Postman Collection](https://smartbadge.io/api/postman-collection.json)**
+- **[Insomnia Collection](https://smartbadge.io/api/insomnia-collection.json)**
+- **[Thunder Client Collection](https://smartbadge.io/api/thunder-collection.json)**
+
+## Performance Testing
+
+Test API performance and reliability:
+
+```bash
+# Basic load testing with curl
+time curl -H "Authorization: Bearer your-key" \
+          https://api.smartbadge.io/v1/analyze/facebook/react
+
+# Test badge generation speed  
+time curl https://smartbadge.io/badge/facebook/react/semantic.svg
+
+# Concurrent request testing
+seq 10 | xargs -n1 -P10 curl -s -H "Authorization: Bearer your-key" \
+  https://api.smartbadge.io/v1/analyze/facebook/react
+```
+
+## Development Tools
+
+### API Key Management
+
+- **[Dashboard](https://smartbadge.io/dashboard)** - Manage API keys and view usage
+- **[Rate Limits](https://smartbadge.io/dashboard/rate-limits)** - Monitor API usage
+- **[Webhooks](https://smartbadge.io/dashboard/webhooks)** - Configure webhook endpoints
+
+### Testing Utilities
+
+- **[RequestBin](https://requestbin.com/)** - Test webhook delivery
+- **[ngrok](https://ngrok.com/)** - Tunnel local development server
+- **[Postman](https://postman.com/)** - API development environment
+- **[Insomnia](https://insomnia.rest/)** - REST API client
+
+Need help with API integration? Join our [Discord community](https://discord.gg/smartbadge) or check our [comprehensive API documentation](../api/overview)!

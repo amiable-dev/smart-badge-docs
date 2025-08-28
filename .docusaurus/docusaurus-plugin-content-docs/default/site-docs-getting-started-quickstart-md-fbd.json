@@ -1,0 +1,24 @@
+{
+  "id": "getting-started/quickstart",
+  "title": "30-Second Quickstart",
+  "description": "Get your first SmartBadge in 30 seconds or less! 🚀",
+  "source": "@site/docs/getting-started/quickstart.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/quickstart",
+  "permalink": "/docs/getting-started/quickstart",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/amiable-dev/smart-badge-docs/tree/main/docs/getting-started/quickstart.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Welcome to SmartBadge",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Installation Guide",
+    "permalink": "/docs/getting-started/installation"
+  }
+}

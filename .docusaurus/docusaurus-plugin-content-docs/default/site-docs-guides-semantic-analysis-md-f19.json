@@ -1,0 +1,24 @@
+{
+  "id": "guides/semantic-analysis",
+  "title": "Understanding Semantic Analysis",
+  "description": "Deep dive into SmartBadge's AI-powered semantic analysis engine.",
+  "source": "@site/docs/guides/semantic-analysis.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/semantic-analysis",
+  "permalink": "/docs/guides/semantic-analysis",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/amiable-dev/smart-badge-docs/tree/main/docs/guides/semantic-analysis.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Badge Customization",
+    "permalink": "/docs/guides/badge-customization"
+  },
+  "next": {
+    "title": "Integrations",
+    "permalink": "/docs/guides/integrations"
+  }
+}

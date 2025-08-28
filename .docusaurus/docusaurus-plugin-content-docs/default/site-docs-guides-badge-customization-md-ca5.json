@@ -1,0 +1,24 @@
+{
+  "id": "guides/badge-customization",
+  "title": "Badge Customization",
+  "description": "Learn how to customize SmartBadge badges to match your project's branding and style.",
+  "source": "@site/docs/guides/badge-customization.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/badge-customization",
+  "permalink": "/docs/guides/badge-customization",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/amiable-dev/smart-badge-docs/tree/main/docs/guides/badge-customization.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Your First Badge",
+    "permalink": "/docs/getting-started/first-badge"
+  },
+  "next": {
+    "title": "Understanding Semantic Analysis",
+    "permalink": "/docs/guides/semantic-analysis"
+  }
+}

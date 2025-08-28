@@ -1,0 +1,24 @@
+{
+  "id": "api/overview",
+  "title": "API Overview",
+  "description": "SmartBadge provides a comprehensive REST API for programmatic badge generation and semantic analysis.",
+  "source": "@site/docs/api/overview.md",
+  "sourceDirName": "api",
+  "slug": "/api/overview",
+  "permalink": "/docs/api/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/amiable-dev/smart-badge-docs/tree/main/docs/api/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Integrations",
+    "permalink": "/docs/guides/integrations"
+  },
+  "next": {
+    "title": "API Endpoints",
+    "permalink": "/docs/api/endpoints"
+  }
+}

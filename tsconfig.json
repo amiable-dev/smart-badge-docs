@@ -1,0 +1,17 @@
+{
+  "extends": "@docusaurus/tsconfig",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "strict": true,
+    "paths": {
+      "@site/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "docs/**/*",
+    "blog/**/*",
+    "docusaurus.config.ts",
+    "sidebars.ts"
+  ]
+}

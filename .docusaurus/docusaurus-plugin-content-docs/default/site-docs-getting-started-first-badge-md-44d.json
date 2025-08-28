@@ -1,0 +1,24 @@
+{
+  "id": "getting-started/first-badge",
+  "title": "Your First Badge",
+  "description": "Step-by-step guide to creating your first SmartBadge.",
+  "source": "@site/docs/getting-started/first-badge.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/first-badge",
+  "permalink": "/docs/getting-started/first-badge",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/amiable-dev/smart-badge-docs/tree/main/docs/getting-started/first-badge.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation Guide",
+    "permalink": "/docs/getting-started/installation"
+  },
+  "next": {
+    "title": "Badge Customization",
+    "permalink": "/docs/guides/badge-customization"
+  }
+}

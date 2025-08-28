@@ -1,0 +1,24 @@
+{
+  "id": "api/endpoints",
+  "title": "API Endpoints",
+  "description": "Complete reference for all SmartBadge API endpoints with examples and parameters.",
+  "source": "@site/docs/api/endpoints.md",
+  "sourceDirName": "api",
+  "slug": "/api/endpoints",
+  "permalink": "/docs/api/endpoints",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/amiable-dev/smart-badge-docs/tree/main/docs/api/endpoints.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "API Overview",
+    "permalink": "/docs/api/overview"
+  },
+  "next": {
+    "title": "Authentication",
+    "permalink": "/docs/api/authentication"
+  }
+}

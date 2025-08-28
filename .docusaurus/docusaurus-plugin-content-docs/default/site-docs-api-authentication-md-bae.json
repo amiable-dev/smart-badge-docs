@@ -1,0 +1,24 @@
+{
+  "id": "api/authentication",
+  "title": "Authentication",
+  "description": "Learn how to authenticate with the SmartBadge API for advanced features.",
+  "source": "@site/docs/api/authentication.md",
+  "sourceDirName": "api",
+  "slug": "/api/authentication",
+  "permalink": "/docs/api/authentication",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/amiable-dev/smart-badge-docs/tree/main/docs/api/authentication.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "API Endpoints",
+    "permalink": "/docs/api/endpoints"
+  },
+  "next": {
+    "title": "Interactive Badge Generator",
+    "permalink": "/docs/interactive/badge-generator"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "interactive/api-playground",
+  "title": "API Playground",
+  "description": "Interactive API testing environment for SmartBadge endpoints.",
+  "source": "@site/docs/interactive/api-playground.md",
+  "sourceDirName": "interactive",
+  "slug": "/interactive/api-playground",
+  "permalink": "/docs/interactive/api-playground",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/amiable-dev/smart-badge-docs/tree/main/docs/interactive/api-playground.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Interactive Badge Generator",
+    "permalink": "/docs/interactive/badge-generator"
+  }
+}
