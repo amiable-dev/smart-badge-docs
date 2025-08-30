@@ -85,7 +85,7 @@ const config: Config = {
             },
             {
               label: 'API Reference',
-              to: '/docs/api',
+              to: '/docs/api/overview',
             },
           ],
         },

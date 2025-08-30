@@ -38,7 +38,7 @@
 
 Choose your path:
 
-- **[30-Second Quickstart](./getting-started/quickstart)** - Get your first badge immediately
+- **[30-Second Quickstart](./getting-started/quick-start)** - Get your first badge immediately
 - **[Installation Guide](./getting-started/installation)** - Complete setup instructions
 - **[API Documentation](./api/overview)** - Integrate SmartBadge into your applications
 - **[Interactive Tools](./interactive/badge-generator)** - Try our badge generator and API playground
